@@ -10,9 +10,9 @@ class QueueActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.quotes_activity)
         if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
+            /*supportFragmentManager.beginTransaction()
                 .replace(R.id.container, MainFragment.newInstance())
-                .commitNow()
+                .commitNow()*/
         }
     }
 
