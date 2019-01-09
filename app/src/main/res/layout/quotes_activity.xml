@@ -14,6 +14,8 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:focusable="true"
+	android:focusableInTouchMode="true"
 	tools:context=".QueueActivity">
 
 	<TextView
@@ -61,7 +63,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="0dp"
 		android:text="Add Quote"
-		android:backgroundTint="@color/colorPrimary"
+		android:backgroundTint="@color/colorAccent"
 		android:textColor="@color/whiteText"
 		android:layout_marginStart="@dimen/standard_margin"
 		android:layout_marginEnd="@dimen/standard_margin"
