@@ -1,7 +1,7 @@
-package ai.gvs.quotesmvvm
+package ai.gvs.quotesmvvm.ui.quotes
 
+import ai.gvs.quotesmvvm.R
 import android.os.Bundle
-import ai.gvs.quotesmvvm.ui.main.MainFragment
 import androidx.appcompat.app.AppCompatActivity
 
 class QueueActivity : AppCompatActivity() {

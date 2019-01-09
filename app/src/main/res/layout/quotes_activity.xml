@@ -16,7 +16,7 @@
 	android:layout_height="match_parent"
 	android:focusable="true"
 	android:focusableInTouchMode="true"
-	tools:context=".QueueActivity">
+	tools:context=".ui.quotes.QueueActivity">
 
 	<TextView
 		android:id="@+id/quotes"
