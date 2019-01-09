@@ -19,7 +19,7 @@
 	tools:context=".ui.quotes.QueueActivity">
 
 	<TextView
-		android:id="@+id/quotes"
+		android:id="@+id/quotesTV"
 		android:layout_width="match_parent"
 		android:layout_height="0dp"
 		android:text="I Like pineapples. - Thomas Jefferson"
@@ -44,7 +44,7 @@
 		android:inputType="text"
 		app:layout_constraintBottom_toTopOf="@id/quoteAuthor"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintEnd_toStartOf="@id/addQuote" />
+		app:layout_constraintEnd_toStartOf="@id/addQuoteBtn" />
 	<EditText
 		android:id="@+id/quoteAuthor"
 		android:layout_width="0dp"
@@ -57,9 +57,9 @@
 		android:inputType="textPersonName"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintEnd_toStartOf="@id/addQuote" />
+		app:layout_constraintEnd_toStartOf="@id/addQuoteBtn" />
 	<Button
-		android:id="@+id/addQuote"
+		android:id="@+id/addQuoteBtn"
 		android:layout_width="wrap_content"
 		android:layout_height="0dp"
 		android:text="Add Quote"
@@ -70,6 +70,6 @@
 		android:layout_marginTop="@dimen/standard_margin"
 		android:layout_marginBottom="@dimen/standard_margin"
 		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintTop_toBottomOf="@id/quotes"
+		app:layout_constraintTop_toBottomOf="@id/quotesTV"
 		app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
